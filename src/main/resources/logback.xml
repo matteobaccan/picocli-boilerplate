@@ -13,7 +13,7 @@
         <file>logger.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- daily rollover -->
-            <fileNamePattern>tnt.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>logger.%d{yyyy-MM-dd}.log</fileNamePattern>
 
             <!-- keep 30 days' worth of history -->
             <maxHistory>30</maxHistory>
